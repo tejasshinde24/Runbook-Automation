@@ -3,8 +3,7 @@ name: Deploy Python Lambda
 on:
   push:
     branches:
-      - Runbook-Automation
-
+      - main
 jobs:
   deploy:
     name: deploy
